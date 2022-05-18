@@ -123,13 +123,13 @@ function Body() {
           data-bs-toggle="dropdown"
           aria-expanded="false"
           style={{
-            borderColor:
-              string && patterns && result && result.includes("<Highlight18>")
-                ? "green"
-                : "#038cfc",
+            backgroundColor: "#eaedee",
+            borderColor: "#d4d8d9"
           }}
         >
-          Options
+          <strong style={{color:string && patterns && result && result.includes("<Highlight18>")
+                ? "green"
+                : "#038cfc",}}>Options</strong>
         </button>
         <ul className="dropdown-menu dropdown-menu-end">
           <li>
