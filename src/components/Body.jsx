@@ -178,20 +178,20 @@ function Body() {
                 : "#038cfc",
           }}
         >
-          <div className="card-body">
-            <p
-              className="card-text"
+          <div className="card-body" style={{overflowY: "auto"}}>
+            <p 
+              className="card-text" style={{marginTop: "-10px"}}
               dangerouslySetInnerHTML={{
                 __html:
                   string && patterns && result
                     ? result.replaceAll(
                         /<(?=(?!:|\/Highlight18|Highlight18))/g,
                         "&lt;"
-                      )
+                      ).replace(/(?:\r\n|\r|\n)/g, '<p>')
                     : (string && string.replaceAll(
                       /<(?=(?!:|\/Highlight18|Highlight18))/g,
                       "&lt;"
-                    )) ||
+                    ).replace(/(?:\r\n|\r|\n)/g, '<p>')) ||
                       "Your result will be displayed here; currently no matches",
               }}
             ></p>
