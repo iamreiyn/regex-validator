@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-regexjs-matcher/static/css/main.98e89c65.css",
+    "main.js": "/react-regexjs-matcher/static/js/main.f2acfcad.js",
+    "index.html": "/react-regexjs-matcher/index.html",
+    "main.98e89c65.css.map": "/react-regexjs-matcher/static/css/main.98e89c65.css.map",
+    "main.f2acfcad.js.map": "/react-regexjs-matcher/static/js/main.f2acfcad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98e89c65.css",
+    "static/js/main.f2acfcad.js"
+  ]
+}
