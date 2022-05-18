@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-regexjs-matcher/static/css/main.98e89c65.css",
-    "main.js": "/react-regexjs-matcher/static/js/main.f2acfcad.js",
+    "main.js": "/react-regexjs-matcher/static/js/main.4db6f512.js",
     "index.html": "/react-regexjs-matcher/index.html",
     "main.98e89c65.css.map": "/react-regexjs-matcher/static/css/main.98e89c65.css.map",
-    "main.f2acfcad.js.map": "/react-regexjs-matcher/static/js/main.f2acfcad.js.map"
+    "main.4db6f512.js.map": "/react-regexjs-matcher/static/js/main.4db6f512.js.map"
   },
   "entrypoints": [
     "static/css/main.98e89c65.css",
-    "static/js/main.f2acfcad.js"
+    "static/js/main.4db6f512.js"
   ]
 }
