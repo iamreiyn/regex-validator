@@ -1,6 +1,6 @@
 {
-  "homepage": "https://renisal.github.io/react-regexjs-matcher",
-  "name": "react-regexjs-matcher",
+  "homepage": "https://renisal.github.io/regex-validator",
+  "name": "regex-validator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-router": "^6.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -39,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "react-router-dom": "^6.3.0"
   }
 }

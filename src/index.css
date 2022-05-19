@@ -1,14 +1,33 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
     font-family: 'Poppins';
+    background-color: rgb(36, 35, 35);
+    overflow-x: hidden;
 }
 
 Highlight18 {
-    background: green;
-    color: black;
+    background: rgb(20, 64, 122);
+    color: #d3d3d3;
 }
 
 p {
     margin-top:0.6px;
     margin-bottom:0.6px
- }
+}
+
+.btn:hover, .btn:enabled {
+    color: navy;
+    background-color: #d3d3d3;
+    border-radius: 0px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #d3d3dd
+}

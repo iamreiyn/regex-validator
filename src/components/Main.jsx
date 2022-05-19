@@ -1,12 +1,13 @@
 import { useState, useReducer } from "react";
+import Footer from "./Footer";
 
-function Body() {
+function Main() {
   const [patterns, setPattrns] = useState();
   const [result, setResult] = useState();
   const [string, setString] = useState();
 
   const [flags, setFlags] = useState([]);
-  const initialFlags = { g: "Global", i: "Case Sensitive", m: "Multi-line", flags: [] }
+  const initialFlags = { g: "Global", i: "Case Sensitive", m: "Multi-line" }
   const [flagsText, setFText] = useReducer(manageFlags, initialFlags)
 
   function manageFlags(state, action) {
@@ -103,19 +104,29 @@ function Body() {
   };
 
   return (
-    <div className="container">
-      <h1 className="my-4">
-        <label style={{ color: "#038cfc" }}>(.*)</label> JavaScript Regex
-        Matcher & Debugger
-      </h1>
-      <hr />
-      <div className="input-group mb-3">
+    <>
+    <div className="row">
+
+    <div className="card col-10" style={{width: "13rem", height: "40rem", backgroundColor: "#212529", borderRadius: "0px", borderTop:"none", borderRight: "1px solid #1d1e21"}}>
+  <ul className="list-group list-group-flush">
+    <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a href="https://cheatography.com/davechild/cheat-sheets/regular-expressions/" alt="_"><i className="fa fa-file-alt mx-1" style={{fontSize:"20px"}}></i> Cheatsheet</a></li>
+    <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a href="https://www.w3schools.com/jsref/jsref_obj_regexp.asp" alt="_"><i className="fa fa-question-circle mx-1" style={{fontSize:"20px"}}></i> Reference</a></li>
+    <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a href="https://github.com/renisal/regex-validator/issues/new/choose" alt="_"><i className="fa fa-lightbulb mx-1" style={{fontSize:"20px"}}></i> Suggest</a></li>
+    <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a href="https://github.com/renisal/regex-validator/fork" alt="_"><i className="fa fa-copy mx-1" style={{fontSize:"20px"}}></i> Fork project</a></li>
+    <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a href="https://github.com/renisal?tab=repositories" alt="_" style={{color: "lightblue"}}>More applications</a></li>
+    <hr/>
+  </ul>
+</div>
+
+    <div className="container col">
+      <div style={{width: "65rem"}} className="input-group mb-3 my-3">
         <input
           onChange={onUpdatePattrns}
-          placeholder="RegEx Characters"
+          placeholder="RegEx Characters (e.g. +*?|^)"
           type="text"
           className="form-control"
           aria-label="Patterns Placeholder"
+          style={{backgroundColor: "#d3d3d3", borderColor: "#aeaeae"}}
         />
         <button
           className="btn btn-outline-secondary dropdown-toggle"
@@ -124,13 +135,13 @@ function Body() {
           aria-expanded="false"
           style={{
             backgroundColor: "#eaedee",
-            borderColor: "#d4d8d9"
+            borderColor: "#aeaeae",
+            borderRadius: "6%"
           }}
         >
-          <strong style={{color:string && patterns && result && result.includes("<Highlight18>")
-                ? "green"
-                : "#038cfc",}}>Options</strong>
+          Flags
         </button>
+        
         <ul className="dropdown-menu dropdown-menu-end">
           <li>
             <label className="dropdown-item btn" onClick={onClickGlobal}>
@@ -147,20 +158,12 @@ function Body() {
               {flagsText.m}
             </label>
           </li>
-          <li>
-            <hr className="dropdown-divider" />
-          </li>
-          <li>
-            <a className="dropdown-item" href="https://github.com/renisal">
-              GitHub Profile
-            </a>
-          </li>
         </ul>
       </div>
       <div style={{ display: "flex" }}>
         <textarea
           onChange={onUpdateString}
-          style={{ width: "600px", resize: "none", borderColor: "#222428" }}
+          style={{ width: "511px", height: "490px", resize: "none",  backgroundColor: "#d3d3d3", borderColor: "#aeaeae" }}
           placeholder="Enter your string here to be matched"
           aria-label="Enter your string here to be matched"
           className="form-control"
@@ -170,17 +173,14 @@ function Body() {
         <div
           className="card mx-3"
           style={{
-            width: "600px",
-            height: "330px",
-            borderColor:
-              string && patterns && result && result.includes("<Highlight18>")
-                ? "green"
-                : "#038cfc",
+            backgroundColor: "#d3d3d3",
+            width: "511px",
+            height: "490px"
           }}
         >
           <div className="card-body" style={{overflowY: "auto"}}>
             <p 
-              className="card-text" style={{marginTop: "-10px"}}
+              className="card-text" style={{marginTop: "-10px", color: string?"black":"#696969"}}
               dangerouslySetInnerHTML={{
                 __html:
                   string && patterns && result
@@ -196,10 +196,16 @@ function Body() {
               }}
             ></p>
           </div>
+
+          
         </div>
-      </div>
+        
+      </div><Footer/>
     </div>
+
+    </div>
+    </>
   );
 }
 
-export default Body;
+export default Main;
