@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-regexjs-matcher/static/css/main.cce18c52.css",
-    "main.js": "/react-regexjs-matcher/static/js/main.9067c074.js",
-    "index.html": "/react-regexjs-matcher/index.html",
-    "main.cce18c52.css.map": "/react-regexjs-matcher/static/css/main.cce18c52.css.map",
-    "main.9067c074.js.map": "/react-regexjs-matcher/static/js/main.9067c074.js.map"
+    "main.css": "/regex-validator/static/css/main.2e75ca52.css",
+    "main.js": "/regex-validator/static/js/main.3df8392e.js",
+    "index.html": "/regex-validator/index.html",
+    "main.2e75ca52.css.map": "/regex-validator/static/css/main.2e75ca52.css.map",
+    "main.3df8392e.js.map": "/regex-validator/static/js/main.3df8392e.js.map"
   },
   "entrypoints": [
-    "static/css/main.cce18c52.css",
-    "static/js/main.9067c074.js"
+    "static/css/main.2e75ca52.css",
+    "static/js/main.3df8392e.js"
   ]
 }
