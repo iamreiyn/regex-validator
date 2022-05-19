@@ -112,8 +112,8 @@ function Main() {
     <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a target="_blank" rel="noreferrer" href="https://www.w3schools.com/jsref/jsref_obj_regexp.asp" alt="_"><i className="fa fa-question-circle mx-1" style={{fontSize:"20px"}}></i> Reference</a></li>
     <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a target="_blank" rel="noreferrer" href="https://github.com/renisal/regex-validator/issues/new/choose" alt="_"><i className="fa fa-lightbulb mx-1" style={{fontSize:"20px"}}></i> Suggest</a></li>
     <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a target="_blank" rel="noreferrer" href="https://github.com/renisal/regex-validator/fork" alt="_"><i className="fa fa-copy mx-1" style={{fontSize:"20px"}}></i> Fork project</a></li>
+    <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a target="_blank" rel="noreferrer" href="https://renisal.github.io/lua-pattern-tester" alt="_"><img src="https://skillicons.dev/icons?i=lua&theme=dark" height="26px" width="28px" alt="lua"/> Lua Pattern </a><label className="badgeCustom">New</label></li>
     <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a target="_blank" rel="noreferrer" href="https://github.com/renisal?tab=repositories" alt="_" style={{color: "lightblue"}}>More applications</a></li>
-    <hr/>
   </ul>
 </div>
 

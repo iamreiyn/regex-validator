@@ -42,9 +42,19 @@ img {
     border-radius: 50%;
 }
 
+.badgeCustom {
+    font-size: xx-small;
+    background-color: #172645;
+    position: relative;
+    bottom: 8px;
+}
 
 
 a {
     text-decoration: none;
     color: #d3d3dd
+}
+
+hr {
+    color: white;
 }

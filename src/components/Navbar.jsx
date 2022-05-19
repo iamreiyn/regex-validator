@@ -18,10 +18,7 @@ function Navbar() {
         <li className="nav-item">
           <a target="_blank" rel="noreferrer" className="nav-link menuitems" href="https://github.com/renisal/regex-validator/issues/new/choose"><i className="fa fa-edit" style={{fontSize:"20px"}}></i> Bug Report</a>
         </li>
-        <li className="nav-item">
-        <a target="_blank" rel="noreferrer" className="nav-link menuitems" href="https://github.com/renisal/lua-pattern-tester"><img src="https://skillicons.dev/icons?i=lua&theme=dark" height="30px" width="30px" alt="lua"/> Lua Pattern</a>
-        </li>
-        <li className="nav-item" style={{marginLeft: "19rem"}}>
+        <li className="nav-item" style={{marginLeft: "27rem"}}>
           <a target="_blank" rel="noreferrer" className="nav-link" href="https://github.com/renisal" style={{cursor: "default", color: "#d3d3d3"}}><i className="fa fa-user" style={{fontSize:"20px"}}></i> by <label style={{color: "lightblue", cursor: "pointer"}}>renisal</label></a>
         </li>
       </ul>
