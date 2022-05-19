@@ -109,11 +109,11 @@ function Main() {
 
     <div className="card col-10" style={{width: "13rem", height: "40rem", backgroundColor: "#212529", borderRadius: "0px", borderTop:"none", borderRight: "1px solid #1d1e21"}}>
   <ul className="list-group list-group-flush">
-    <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a href="https://cheatography.com/davechild/cheat-sheets/regular-expressions/" alt="_"><i className="fa fa-file-alt mx-1" style={{fontSize:"20px"}}></i> Cheatsheet</a></li>
-    <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a href="https://www.w3schools.com/jsref/jsref_obj_regexp.asp" alt="_"><i className="fa fa-question-circle mx-1" style={{fontSize:"20px"}}></i> Reference</a></li>
-    <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a href="https://github.com/renisal/regex-validator/issues/new/choose" alt="_"><i className="fa fa-lightbulb mx-1" style={{fontSize:"20px"}}></i> Suggest</a></li>
-    <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a href="https://github.com/renisal/regex-validator/fork" alt="_"><i className="fa fa-copy mx-1" style={{fontSize:"20px"}}></i> Fork project</a></li>
-    <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a href="https://github.com/renisal?tab=repositories" alt="_" style={{color: "lightblue"}}>More applications</a></li>
+    <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a target="_blank" rel="noreferrer" href="https://cheatography.com/davechild/cheat-sheets/regular-expressions/" alt="_"><i className="fa fa-file-alt mx-1" style={{fontSize:"20px"}}></i> Cheatsheet</a></li>
+    <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a target="_blank" rel="noreferrer" href="https://www.w3schools.com/jsref/jsref_obj_regexp.asp" alt="_"><i className="fa fa-question-circle mx-1" style={{fontSize:"20px"}}></i> Reference</a></li>
+    <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a target="_blank" rel="noreferrer" href="https://github.com/renisal/regex-validator/issues/new/choose" alt="_"><i className="fa fa-lightbulb mx-1" style={{fontSize:"20px"}}></i> Suggest</a></li>
+    <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a target="_blank" rel="noreferrer" href="https://github.com/renisal/regex-validator/fork" alt="_"><i className="fa fa-copy mx-1" style={{fontSize:"20px"}}></i> Fork project</a></li>
+    <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a target="_blank" rel="noreferrer" href="https://github.com/renisal?tab=repositories" alt="_" style={{color: "lightblue"}}>More applications</a></li>
     <hr/>
   </ul>
 </div>

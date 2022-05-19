@@ -13,16 +13,16 @@ function Navbar() {
           <a style={{color: "lightblue"}}className="nav-link active" aria-current="page" href="/"><i className="fa fa-house-user" style={{fontSize:"20px"}}></i> Home</a>
         </li>
         <li className="nav-item">
-          <a style={{color: "#d3d3d3"}}className="nav-link" href="https://github.com/renisal/regex-validator"><i className="fa fa-code-fork" style={{fontSize:"20px"}}></i> Source</a>
+          <a target="_blank" rel="noreferrer" style={{color: "#d3d3d3"}}className="nav-link" href="https://github.com/renisal/regex-validator"><i className="fa fa-code-fork" style={{fontSize:"20px"}}></i> Source</a>
         </li>
         <li className="nav-item">
-          <a style={{color: "#d3d3d3"}}className="nav-link" href="https://github.com/renisal/regex-validator/issues/new/choose"><i className="fa fa-edit" style={{fontSize:"20px"}}></i> Bug Report</a>
+          <a target="_blank" rel="noreferrer" style={{color: "#d3d3d3"}}className="nav-link" href="https://github.com/renisal/regex-validator/issues/new/choose"><i className="fa fa-edit" style={{fontSize:"20px"}}></i> Bug Report</a>
         </li>
         <li className="nav-item">
-        <a style={{color: "#d3d3d3"}}className="nav-link" href="https://github.com/renisal/lua-pattern-validator"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lua-Logo.svg/600px-Lua-Logo.svg.png" style={{paddingBottom: "3px"}} height="30px" width="30px" alt="lua"/> Lua Pattern</a>
+        <a target="_blank" rel="noreferrer" style={{color: "#d3d3d3"}}className="nav-link" href="https://github.com/renisal/lua-pattern-validator"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lua-Logo.svg/600px-Lua-Logo.svg.png" style={{paddingBottom: "3px"}} height="30px" width="30px" alt="lua"/> Lua Pattern</a>
         </li>
         <li className="nav-item" style={{marginLeft: "19rem"}}>
-          <a className="nav-link" href="https://github.com/renisal" style={{cursor: "default", color: "#d3d3d3"}}><i className="fa fa-user" style={{fontSize:"20px"}}></i> by <label style={{color: "lightblue", cursor: "pointer"}}>renisal</label></a>
+          <a target="_blank" rel="noreferrer" className="nav-link" href="https://github.com/renisal" style={{cursor: "default", color: "#d3d3d3"}}><i className="fa fa-user" style={{fontSize:"20px"}}></i> by <label style={{color: "lightblue", cursor: "pointer"}}>renisal</label></a>
         </li>
       </ul>
     </div>
