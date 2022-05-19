@@ -10,6 +10,23 @@ Highlight18 {
     color: #d3d3d3;
 }
 
+.active {
+    background-color: lightblue;
+    border-radius: 10px;
+    color: white;
+}
+
+.active:hover {
+    color: white;
+}
+.menuitems {
+    color: #d3d3d3;
+}
+.menuitems:hover {
+    border-radius: 10px;
+    color: lightblue;
+}
+
 p {
     margin-top:0.6px;
     margin-bottom:0.6px

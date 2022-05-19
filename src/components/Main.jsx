@@ -106,7 +106,6 @@ function Main() {
   return (
     <>
     <div className="row">
-
     <div className="card col-10" style={{width: "13rem", height: "40rem", backgroundColor: "#212529", borderRadius: "0px", borderTop:"none", borderRight: "1px solid #1d1e21"}}>
   <ul className="list-group list-group-flush">
     <li className="list-group-item text-white" style={{backgroundColor: "#212529", color: "d3d3d3"}}><a target="_blank" rel="noreferrer" href="https://cheatography.com/davechild/cheat-sheets/regular-expressions/" alt="_"><i className="fa fa-file-alt mx-1" style={{fontSize:"20px"}}></i> Cheatsheet</a></li>
