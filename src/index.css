@@ -9,17 +9,17 @@ body {
 }
 
 p {
-    margin-top: 0.6px;
-    margin-bottom: 0.6px;
+  margin-top: 0.6px;
+  margin-bottom: 0.6px;
 }
 
 img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
-  
+
 a {
-      text-decoration: none;
-      color: #d3d3dd;
+  text-decoration: none;
+  color: #d3d3dd;
 }
 
 /* Custom */
@@ -30,12 +30,11 @@ Highlight18 {
 }
 
 .badgeCustom {
-    font-size: xx-small;
-    background-color: #172645;
-    position: relative;
-    bottom: 8px;
-  }
-  
+  font-size: xx-small;
+  background-color: #172645;
+  position: relative;
+  bottom: 8px;
+}
 
 /* Classes */
 
@@ -46,22 +45,22 @@ Highlight18 {
 }
 
 .menuitems {
-    color: #d3d3d3;
+  color: #d3d3d3;
 }
 
 /* Hover */
 
 .active:hover {
-    color: white;
+  color: white;
 }
-  
+
 .menuitems:hover {
-    color: lightblue;
+  color: lightblue;
 }
-  
+
 .btn:hover,
 .btn:enabled {
-    color: navy;
-    background-color: #d3d3d3;
-    border-radius: 0px;
+  color: navy;
+  background-color: #d3d3d3;
+  border-radius: 0px;
 }

@@ -118,9 +118,19 @@ function Main() {
           }}
         >
           <ul className="list-group list-group-flush">
-            <li
+          <li
               className="list-group-item text-white"
-              style={{ backgroundColor: "#212529", color: "d3d3d3" }}
+              style={{ backgroundColor: "#212529"}}
+            >
+              <label
+                style={{color: "#3273a8", fontSize: "13px", marginLeft: "-8px" }}
+              >
+                REGULAR EXPRESSION
+              </label>
+            </li>
+            <li
+              className="mx-3 my-2 text-white"
+              style={{ backgroundColor: "#212529", color: "d3d3d3", listStyle: "none" }}
             >
               <a
                 target="_blank"
@@ -136,8 +146,8 @@ function Main() {
               </a>
             </li>
             <li
-              className="list-group-item text-white"
-              style={{ backgroundColor: "#212529", color: "d3d3d3" }}
+              className="mx-3 text-white"
+              style={{marginTop: "6px", backgroundColor: "#212529", color: "d3d3d3", listStyle: "none" }}
             >
               <a
                 target="_blank"
@@ -152,9 +162,21 @@ function Main() {
                 Reference
               </a>
             </li>
+
             <li
-              className="list-group-item text-white"
-              style={{ backgroundColor: "#212529", color: "d3d3d3" }}
+              className="list-group-item text-white my-2"
+              style={{ backgroundColor: "#212529"}}
+            >
+              <label
+                style={{ color: "#3273a8", fontSize: "13px", marginLeft: "-8px" }}
+              >
+                ABOUT PROJECT
+              </label>
+            </li>
+
+            <li
+              className="text-white mx-3 my-1"
+              style={{listStyle: "none", backgroundColor: "#212529", color: "d3d3d3" }}
             >
               <a
                 target="_blank"
@@ -170,8 +192,8 @@ function Main() {
               </a>
             </li>
             <li
-              className="list-group-item text-white"
-              style={{ backgroundColor: "#212529", color: "d3d3d3" }}
+              className="text-white my-2"
+              style={{marginLeft: "10px", listStyle: "none", backgroundColor: "#212529", color: "d3d3d3" }}
             >
               <a
                 target="_blank"
@@ -183,9 +205,21 @@ function Main() {
                 Fork project
               </a>
             </li>
+
             <li
-              className="list-group-item text-white"
-              style={{ backgroundColor: "#212529", color: "d3d3d3" }}
+              className="list-group-item text-white my-2"
+              style={{ backgroundColor: "#212529"}}
+            >
+              <label
+                style={{ color: "#3273a8", fontSize: "13px", marginLeft: "-8px" }}
+              >
+                MORE APPLICATIONS
+              </label>
+            </li>
+
+            <li
+              className="text-white mx-2 my-1"
+              style={{listStyle: "none", backgroundColor: "#212529", color: "d3d3d3" }}
             >
               <a
                 target="_blank"
@@ -203,22 +237,16 @@ function Main() {
               </a>
               <label className="badgeCustom">New</label>
             </li>
-            <li
-              className="list-group-item text-white"
-              style={{ backgroundColor: "#212529", color: "d3d3d3" }}
-            >
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/renisal?tab=repositories"
-                alt="_"
-                style={{ color: "lightblue" }}
-              >
-                More applications
-              </a>
-            </li>
+            
           </ul>
+
+          
+
+
         </div>
+
+          
+
 
         <div className="container col">
           <div style={{ width: "65rem" }} className="input-group mb-3 my-3">
