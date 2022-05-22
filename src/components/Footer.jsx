@@ -4,9 +4,9 @@ function Footer() {
       <div
         className="card my-3"
         style={{
-          backgroundColor: "rgb(33 37 41)",
+          backgroundColor: "rgb(31, 31, 31)",
           height: "4rem",
-          width: "64.8rem",
+          width: "98.6%",
         }}
       >
         <ul
