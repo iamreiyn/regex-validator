@@ -103,14 +103,24 @@ function Main() {
     }
   };
 
+  const showSidebar = () => {
+    document.getElementById("Sidebar").style.display = "inline";
+    document.getElementById("iconSidebar").style.display = "none";
+  };
+
+  const showIconSB = () => {
+    document.getElementById("Sidebar").style.display = "none";
+    document.getElementById("iconSidebar").style.display = "inline";
+  };
+
   return (
     <>
       <div className="row">
         <div
           className="card col-10"
+          id="iconSidebar"
           style={{
-            width: "13rem",
-            height: "40rem",
+            width: "80px",
             backgroundColor: "#212529",
             borderRadius: "0px",
             borderTop: "none",
@@ -118,19 +128,173 @@ function Main() {
           }}
         >
           <ul className="list-group list-group-flush">
-          <li
+            <li
+              onClick={showSidebar}
               className="list-group-item text-white"
-              style={{ backgroundColor: "#212529"}}
+              style={{
+                backgroundColor: "#385da5",
+                color: "#d3d3d3",
+                display: "inline-block",
+                width: "120%",
+                marginBottom: "5px",
+              }}
             >
               <label
-                style={{color: "#3273a8", fontSize: "13px", marginLeft: "-8px" }}
+                style={{
+                  color: "#d3d3d3",
+                  fontSize: "13px",
+                  marginLeft: "-5px",
+                }}
+              >
+                <i
+                  className="fa fa-bars mx-2 clickable"
+                  style={{ fontSize: "30px" }}
+                ></i>
+              </label>
+            </li>
+            <li
+              className="list-group-item text-white"
+              style={{ backgroundColor: "transparent" }}
+            >
+              <a
+                className="xminus"
+                target="_blank"
+                rel="noreferrer"
+                href="https://cheatography.com/davechild/cheat-sheets/regular-expressions/"
+                alt="_"
+              >
+                <i
+                  className="fa fa-file-alt mx-2"
+                  style={{ fontSize: "30px" }}
+                ></i>
+              </a>
+            </li>
+            <li
+              className="list-group-item text-white"
+              style={{ backgroundColor: "transparent" }}
+            >
+              <a
+                className="xminus"
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.w3schools.com/jsref/jsref_obj_regexp.asp"
+                alt="_"
+              >
+                <i
+                  className="fa fa-question-circle mx-2"
+                  style={{ fontSize: "30px" }}
+                ></i>
+              </a>
+            </li>
+            <li
+              className="list-group-item text-white"
+              style={{ backgroundColor: "transparent" }}
+            >
+              <a
+                className="xminus"
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/renisal/regex-validator/issues/new/choose"
+                alt="_"
+              >
+                <i
+                  className="fa fa-lightbulb mx-2"
+                  style={{ fontSize: "30px" }}
+                ></i>
+              </a>
+            </li>
+            <li
+              className="list-group-item text-white"
+              style={{ backgroundColor: "transparent" }}
+            >
+              <a
+                className="xminus"
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/renisal/regex-validator/fork"
+                alt="_"
+              >
+                <i className="fa fa-copy mx-2" style={{ fontSize: "30px" }}></i>
+              </a>
+            </li>
+            <li
+              className="list-group-item text-white"
+              style={{ backgroundColor: "transparent" }}
+            >
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://renisal.github.io/lua-pattern-tester"
+                alt="_"
+              >
+                {" "}
+                <img
+                  style={{ marginLeft: "-6px", marginTop: "-3px" }}
+                  src="https://skillicons.dev/icons?i=lua&theme=dark"
+                  height="50px"
+                  width="40px"
+                  alt="lua"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div
+          className="card col-10"
+          id="Sidebar"
+          style={{
+            display: "none",
+            width: "13rem",
+            backgroundColor: "#212529",
+            borderRadius: "0px",
+            borderTop: "none",
+            borderRight: "1px solid #1d1e21",
+          }}
+        >
+          <ul className="list-group list-group-flush">
+            <li
+              onClick={showIconSB}
+              className="list-group-item text-white"
+              style={{
+                backgroundColor: "#385da5",
+                display: "inline-block",
+                width: "106.5%",
+              }}
+            >
+              <label
+                className="clickable"
+                style={{
+                  color: "#d3d3d3",
+                  fontSize: "13px",
+                  marginLeft: "-8px",
+                }}
+              >
+                <i className="fa fa-bars mx-1" style={{ fontSize: "20px" }}></i>{" "}
+                MENU
+              </label>
+            </li>
+            <li
+              className="list-group-item text-white"
+              style={{ backgroundColor: "#212529" }}
+            >
+              <label
+                style={{
+                  color: "#3273a8",
+                  fontSize: "13px",
+                  marginLeft: "-8px",
+                }}
               >
                 REGULAR EXPRESSION
               </label>
             </li>
             <li
               className="mx-3 my-2 text-white"
-              style={{ backgroundColor: "#212529", color: "d3d3d3", listStyle: "none" }}
+              style={{
+                backgroundColor: "#212529",
+                color: "d3d3d3",
+                listStyle: "none",
+              }}
             >
               <a
                 target="_blank"
@@ -147,7 +311,12 @@ function Main() {
             </li>
             <li
               className="mx-3 text-white"
-              style={{marginTop: "6px", backgroundColor: "#212529", color: "d3d3d3", listStyle: "none" }}
+              style={{
+                marginTop: "6px",
+                backgroundColor: "#212529",
+                color: "d3d3d3",
+                listStyle: "none",
+              }}
             >
               <a
                 target="_blank"
@@ -165,10 +334,14 @@ function Main() {
 
             <li
               className="list-group-item text-white my-2"
-              style={{ backgroundColor: "#212529"}}
+              style={{ backgroundColor: "#212529" }}
             >
               <label
-                style={{ color: "#3273a8", fontSize: "13px", marginLeft: "-8px" }}
+                style={{
+                  color: "#3273a8",
+                  fontSize: "13px",
+                  marginLeft: "-8px",
+                }}
               >
                 ABOUT PROJECT
               </label>
@@ -176,7 +349,11 @@ function Main() {
 
             <li
               className="text-white mx-3 my-1"
-              style={{listStyle: "none", backgroundColor: "#212529", color: "d3d3d3" }}
+              style={{
+                listStyle: "none",
+                backgroundColor: "#212529",
+                color: "d3d3d3",
+              }}
             >
               <a
                 target="_blank"
@@ -193,7 +370,12 @@ function Main() {
             </li>
             <li
               className="text-white my-2"
-              style={{marginLeft: "10px", listStyle: "none", backgroundColor: "#212529", color: "d3d3d3" }}
+              style={{
+                marginLeft: "10px",
+                listStyle: "none",
+                backgroundColor: "#212529",
+                color: "d3d3d3",
+              }}
             >
               <a
                 target="_blank"
@@ -208,10 +390,14 @@ function Main() {
 
             <li
               className="list-group-item text-white my-2"
-              style={{ backgroundColor: "#212529"}}
+              style={{ backgroundColor: "#212529" }}
             >
               <label
-                style={{ color: "#3273a8", fontSize: "13px", marginLeft: "-8px" }}
+                style={{
+                  color: "#3273a8",
+                  fontSize: "13px",
+                  marginLeft: "-8px",
+                }}
               >
                 MORE APPLICATIONS
               </label>
@@ -219,7 +405,11 @@ function Main() {
 
             <li
               className="text-white mx-2 my-1"
-              style={{listStyle: "none", backgroundColor: "#212529", color: "d3d3d3" }}
+              style={{
+                listStyle: "none",
+                backgroundColor: "#212529",
+                color: "d3d3d3",
+              }}
             >
               <a
                 target="_blank"
@@ -237,19 +427,11 @@ function Main() {
               </a>
               <label className="badgeCustom">New</label>
             </li>
-            
           </ul>
-
-          
-
-
         </div>
 
-          
-
-
         <div className="container col">
-          <div style={{ width: "65rem" }} className="input-group mb-3 my-3">
+          <div style={{ width: "99%" }} className="input-group mb-3 my-3">
             <input
               onChange={onUpdatePattrns}
               placeholder="RegEx Characters (e.g. +*?|^)"
@@ -294,7 +476,7 @@ function Main() {
             <textarea
               onChange={onUpdateString}
               style={{
-                width: "511px",
+                width: "99%",
                 height: "490px",
                 resize: "none",
                 backgroundColor: "#d3d3d3",
@@ -310,7 +492,7 @@ function Main() {
               className="card mx-3"
               style={{
                 backgroundColor: "#d3d3d3",
-                width: "511px",
+                width: "99%",
                 height: "490px",
               }}
             >
