@@ -231,8 +231,8 @@ function Main() {
                 <img
                   style={{ marginLeft: "-6px", marginTop: "-3px" }}
                   src="https://skillicons.dev/icons?i=lua&theme=dark"
-                  height="50px"
-                  width="40px"
+                  height="52px"
+                  width="43px"
                   alt="lua"
                 />
               </a>
@@ -419,8 +419,8 @@ function Main() {
               >
                 <img
                   src="https://skillicons.dev/icons?i=lua&theme=dark"
-                  height="26px"
-                  width="28px"
+                  height="30px"
+                  width="30px"
                   alt="lua"
                 />{" "}
                 Lua Pattern{" "}
