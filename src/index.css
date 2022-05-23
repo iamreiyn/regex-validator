@@ -64,6 +64,14 @@ Highlight18 {
 
 /* The element to apply the animation to */
 
+.icons {
+  font-size: 25px;
+}
+
+.icons:hover {
+  font-size: 30px;
+}
+
 .clickable {
   cursor: pointer;
   color: #d3d3d3;
@@ -71,7 +79,7 @@ Highlight18 {
 }
 
 .clickable:hover {
-  color: lightblue;
+  color: #d3d3d3;
 }
 
 .xminus {
