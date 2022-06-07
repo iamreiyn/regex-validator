@@ -64,6 +64,62 @@ a {
   color: #d3d3dd;
 }
 
+<<<<<<< HEAD:src/assets/css/index.css
+=======
+/* Custom */
+
+Highlight18 {
+  background: rgb(20, 64, 122);
+  color: #d3d3d3;
+}
+
+.badgeCustom {
+  font-size: xx-small;
+  background-color: #172645;
+  position: relative;
+  bottom: 8px;
+}
+
+/* Classes */
+
+.active {
+  background-color: lightblue;
+  border-radius: 10px;
+  color: white;
+}
+
+.menuitems {
+  color: #d3d3d3;
+}
+
+/* Hover */
+
+.active:hover {
+  color: white;
+}
+
+.menuitems:hover {
+  color: lightblue;
+}
+
+.btn:hover,
+.btn:enabled {
+  color: navy;
+  background-color: #d3d3d3;
+  border-radius: 0px;
+}
+
+/* The element to apply the animation to */
+
+.icons {
+  font-size: 25px;
+}
+
+.icons:hover {
+  font-size: 30px;
+}
+
+>>>>>>> 2f02e2fce36563de3b6d476bc376e65fe9c17e25:src/index.css
 .clickable {
   cursor: pointer;
   color: #d3d3d3;

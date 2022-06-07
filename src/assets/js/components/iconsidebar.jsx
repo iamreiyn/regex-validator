@@ -7,7 +7,7 @@ export default function iconSidebar() {
           className="card col-10"
           id="iconSidebar"
           style={{
-            width: "80px",
+            width: "75px",
             backgroundColor: "#212529",
             borderRadius: "0px",
             borderTop: "none",
@@ -19,11 +19,13 @@ export default function iconSidebar() {
                onClick={showSidebar}
               className="list-group-item text-white"
               style={{
+                
                 backgroundColor: "#385da5",
                 color: "#d3d3d3",
                 display: "inline-block",
-                width: "120%",
+                width: "125%",
                 marginBottom: "5px",
+                cursor: "pointer"
               }}
             >
               <label
@@ -34,8 +36,7 @@ export default function iconSidebar() {
                 }}
               >
                 <i
-                  className="fa fa-bars mx-2 clickable"
-                  style={{ fontSize: "30px" }}
+                  className="fa fa-bars mx-2 clickable icons"
                 ></i>
               </label>
             </li>
@@ -44,15 +45,14 @@ export default function iconSidebar() {
               style={{ backgroundColor: "transparent" }}
             >
               <a
-                className="xminus"
+                className="xminus clickable"
                 target="_blank"
                 rel="noreferrer"
                 href="https://cheatography.com/davechild/cheat-sheets/regular-expressions/"
                 alt="_"
               >
                 <i
-                  className="fa fa-file-alt mx-2"
-                  style={{ fontSize: "30px" }}
+                  className="fa fa-file-alt mx-2 icons"
                 ></i>
               </a>
             </li>
@@ -61,15 +61,14 @@ export default function iconSidebar() {
               style={{ backgroundColor: "transparent" }}
             >
               <a
-                className="xminus"
+                className="xminus clickable"
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.w3schools.com/jsref/jsref_obj_regexp.asp"
                 alt="_"
               >
                 <i
-                  className="fa fa-question-circle mx-2"
-                  style={{ fontSize: "30px" }}
+                  className="fa fa-question-circle mx-2 icons"
                 ></i>
               </a>
             </li>
@@ -78,15 +77,14 @@ export default function iconSidebar() {
               style={{ backgroundColor: "transparent" }}
             >
               <a
-                className="xminus"
+                className="xminus clickable"
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/renisal/regex-validator/issues/new/choose"
                 alt="_"
               >
                 <i
-                  className="fa fa-lightbulb mx-2"
-                  style={{ fontSize: "30px" }}
+                  className="fa fa-lightbulb mx-2 icons"
                 ></i>
               </a>
             </li>
@@ -95,13 +93,13 @@ export default function iconSidebar() {
               style={{ backgroundColor: "transparent" }}
             >
               <a
-                className="xminus"
+                className="xminus clickable"
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/renisal/regex-validator/fork"
                 alt="_"
               >
-                <i className="fa fa-copy mx-2" style={{ fontSize: "30px" }}></i>
+                <i className="fa fa-copy mx-2 icons"></i>
               </a>
             </li>
             <li
@@ -118,8 +116,8 @@ export default function iconSidebar() {
                 <img
                   style={{ marginLeft: "-6px", marginTop: "-3px" }}
                   src="https://skillicons.dev/icons?i=lua&theme=dark"
-                  height="52px"
-                  width="43px"
+                  height="45px"
+                  width="38px"
                   alt="lua"
                 />
               </a>
