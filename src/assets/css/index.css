@@ -1,0 +1,80 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+@import "https://use.fontawesome.com/releases/v6.0.0/css/all.css";
+mark {
+  background: rgb(20, 64, 122);
+  color: #d3d3d3;
+}
+
+.btn:hover,
+.btn:enabled {
+  color: navy;
+  background-color: #d3d3d3;
+  border-radius: 0px;
+}
+
+.badgeCustom {
+  font-size: xx-small;
+  background-color: #172645;
+  position: relative;
+  bottom: 8px;
+}
+
+.icons {
+  font-size: 25px;
+}
+.icons:hover {
+  font-size: 30px;
+}
+
+.active {
+  background-color: lightblue;
+  border-radius: 10px;
+  color: white;
+  max-width: 6rem;
+}
+.active:hover {
+  color: white;
+}
+
+.menuitems {
+  color: #d3d3d3;
+}
+.menuitems:hover {
+  color: lightblue;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Poppins";
+  background-color: rgb(31, 31, 31);
+  overflow-x: hidden;
+}
+
+p {
+  margin-top: 0.6px;
+  margin-bottom: 0.6px;
+}
+
+a {
+  text-decoration: none;
+  color: #d3d3dd;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #d3d3d3;
+  background-size: 50px;
+}
+.clickable:hover {
+  color: #d3d3d3;
+}
+
+.cMarginL {
+  margin-left: -6px;
+}
+
+/*# sourceMappingURL=index.css.map */

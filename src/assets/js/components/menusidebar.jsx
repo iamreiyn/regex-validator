@@ -1,4 +1,4 @@
-import { showIconSB } from "./Main";
+import { showIconSB } from "../functions/sidebar";
 export default function ExtSidebar() {
     return (
         <>

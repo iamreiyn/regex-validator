@@ -1,0 +1,16 @@
+.active {
+  background-color: lightblue;
+  border-radius: 10px;
+  color: white;
+  max-width: 6rem;
+  &:hover {
+    color: white;
+  }
+}
+
+.menuitems {
+  color: #d3d3d3;
+  &:hover {
+    color: lightblue;
+  }
+}

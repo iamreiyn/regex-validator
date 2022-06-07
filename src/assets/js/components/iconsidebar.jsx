@@ -1,4 +1,4 @@
-import {showSidebar} from "./Main";
+import {showSidebar} from "../functions/sidebar";
 
 export default function iconSidebar() {
     return (

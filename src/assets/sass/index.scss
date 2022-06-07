@@ -1,0 +1,44 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+@import "https://use.fontawesome.com/releases/v6.0.0/css/all.css";
+
+@import "layouts/_mark";
+@import "layouts/_buttons";
+@import "layouts/_badges";
+@import "layouts/_icons";
+
+@import "components/_navbar";
+@import "components/_footer";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Poppins";
+  background-color: rgb(31, 31, 31);
+  overflow-x: hidden;
+}
+
+p {
+  margin-top: 0.6px;
+  margin-bottom: 0.6px;
+}
+
+a {
+  text-decoration: none;
+  color: #d3d3dd;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #d3d3d3;
+  background-size: 50px;
+  &:hover {
+    color: #d3d3d3;
+  }
+}
+
+.cMarginL {
+  margin-left: -6px;
+}

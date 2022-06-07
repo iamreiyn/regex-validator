@@ -1,7 +1,8 @@
 import { useState, useReducer } from "react";
-import Footer from "./Footer";
-import IconSidebar from "./IconSidebar";
-import ExtSidebar from "./ExtSidebar";
+
+import Footer from "./components/footer";
+import IconSidebar from "./components/iconsidebar";
+import ExtSidebar from "./components/menusidebar";
 
 export default function Main() {
   const [patterns, setPattrns] = useState();
@@ -17,7 +18,7 @@ export default function Main() {
       setResult(
         string.replace(
           new RegExp(patterns, flags.join().replace(/,/g, "")),
-          (match) => `<Highlight18>${match}</Highlight18>`
+          (match) => `<mark>${match}</mark>`
         )
       );
     }
@@ -40,27 +41,29 @@ export default function Main() {
   }
 
   const onUpdatePattrns = (event) => {
+    if (!string) return
     setPattrns(event.target.value);
-    if (string) {
-      setResult(
-        string.replace(
-          new RegExp(event.target.value, flags.join().replace(/,/g, "")),
-          (match) => `<Highlight18>${match}</Highlight18>`
-        )
-      );
-    }
+
+    if (!string) return
+    setResult(
+      string.replace(
+        new RegExp(event.target.value, flags.join().replace(/,/g, "")),
+        (match) => `<mark>${match}</mark>`
+      )
+    );
   };
 
   const onUpdateString = (event) => {
+    if (!event.target.value) return
     setString(event.target.value);
-    if (patterns) {
-      setResult(
-        event.target.value.replace(
-          new RegExp(patterns, flags.join().replace(/,/g, "")),
-          (match) => `<Highlight18>${match}</Highlight18>`
-        )
-      );
-    }
+
+    if (!patterns) return
+    setResult(
+      event.target.value.replace(
+        new RegExp(patterns, flags.join().replace(/,/g, "")),
+        (match) => `<mark>${match}</mark>`
+      )
+    );
   };
 
   const removeItemAll = (arr, value) => {
@@ -190,14 +193,14 @@ export default function Main() {
                       string && patterns && result
                         ? result
                             .replaceAll(
-                              /<(?=(?!:|\/Highlight18|Highlight18))/g,
+                              /<(?=(?!:|\/mark|mark))/g,
                               "&lt;"
                             )
                             .replace(/(?:\r\n|\r|\n)/g, "<p>")
                         : (string &&
                             string
                               .replaceAll(
-                                /<(?=(?!:|\/Highlight18|Highlight18))/g,
+                                /<(?=(?!:|\/mark|mark))/g,
                                 "&lt;"
                               )
                               .replace(/(?:\r\n|\r|\n)/g, "<p>")) ||
@@ -212,14 +215,4 @@ export default function Main() {
       </div>
     </>
   );
-}
-
-export function showSidebar() {
-  document.getElementById("Sidebar").style.display = "inline";
-  document.getElementById("iconSidebar").style.display = "none";
-}
-
-export function showIconSB() {
-  document.getElementById("Sidebar").style.display = "none";
-  document.getElementById("iconSidebar").style.display = "inline";
 }
