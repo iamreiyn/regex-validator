@@ -2,10 +2,9 @@ function Footer() {
   return (
     <div>
       <div
-        className="card my-3"
+        className="card my-2"
         style={{
           backgroundColor: "rgb(31, 31, 31)",
-          height: "4rem",
           width: "98.6%",
         }}
       >

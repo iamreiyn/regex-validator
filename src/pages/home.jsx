@@ -1,6 +1,6 @@
-import Navbar from "../assets/js/components/navbar";
-import Footer from "../assets/js/components/footer";
-import Main from "../assets/js/main";
+import Navbar from "../js/components/navbar";
+import Footer from "../js/components/footer";
+import Main from "../js/main";
 
 export default function Home() {
     return (

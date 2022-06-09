@@ -3,16 +3,7 @@ export default function ExtSidebar() {
     return (
         <>
         <div
-          className="card col-10"
-          id="Sidebar"
-          style={{
-            display: "none",
-            width: "13rem",
-            backgroundColor: "#212529",
-            borderRadius: "0px",
-            borderTop: "none",
-            borderRight: "1px solid #1d1e21",
-          }}
+          className="card col-10 Sidebar"
         >
           <ul className="list-group list-group-flush">
             <li

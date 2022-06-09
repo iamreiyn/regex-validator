@@ -1,0 +1,33 @@
+/* Icon Sidebar */
+.iconSidebar {
+    width: 78px;
+    background-color: #212529;
+    border-radius: 0px;
+    border-top: none;
+    border-right: 1px solid #1d1e21;
+    max-height: 500px;
+    background-color: rgb(33 37 41);
+}
+
+.hidden {
+    display: none;
+}
+
+.activeIcon {
+    background-color: rgb(56 93 165);
+    color: #d3d3d3;
+    display: inline-block;
+    width: 125%;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.Sidebar {
+    display: none;
+    width: 200px;
+    max-height: 500px;
+    background-color: #212529;
+    border-radius: 0px;
+    border-top: none;
+    border-right: 1px solid #1d1e21;
+}

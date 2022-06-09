@@ -5,12 +5,11 @@ function Navbar() {
         className="navbar navbar-expand-lg"
         style={{ backgroundColor: "#172645" }}
       >
-        <div className="container-fluid" style={{ backgroundColor: "#172645" }}>
-          <h1 style={{ color: "lightblue" }}>RegEx</h1>
-          <h1 className="mx-2" style={{ color: "#3273a8" }}>
-            Validator
-          </h1>
-          <button
+        <div className="container-fluid">
+          <div style={{display: "flex"}}>
+          <h1 className="title">RegEx</h1>
+          <h1 className="title2 mx-2">Validator</h1></div>
+            <button
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -31,8 +30,7 @@ function Navbar() {
                   href="/"
                 >
                   <i
-                    className="fa fa-house-user"
-                    style={{ fontSize: "20px" }}
+                    className="fa fa-house-user iconsNav"
                   ></i>{" "}
                   Home
                 </a>
@@ -45,8 +43,7 @@ function Navbar() {
                   href="https://github.com/renisal/regex-validator"
                 >
                   <i
-                    className="fa fa-code-fork"
-                    style={{ fontSize: "20px" }}
+                    className="fa fa-code-fork iconsNav"
                   ></i>{" "}
                   Source
                 </a>
@@ -58,11 +55,11 @@ function Navbar() {
                   className="nav-link menuitems"
                   href="https://github.com/renisal/regex-validator/issues/new/choose"
                 >
-                  <i className="fa fa-edit" style={{ fontSize: "20px" }}></i>{" "}
+                  <i className="fa fa-edit iconsNav"></i>{" "}
                   Bug Report
                 </a>
               </li>
-              <li className="nav-item" style={{ marginLeft: "27rem" }}>
+              <li className="nav-item">
                 <a
                   target="_blank"
                   rel="noreferrer"
@@ -70,7 +67,7 @@ function Navbar() {
                   href="https://github.com/renisal"
                   style={{ cursor: "default", color: "#d3d3d3" }}
                 >
-                  <i className="fa fa-user" style={{ fontSize: "20px" }}></i> by{" "}
+                  <i className="fa fa-user iconsNav"></i> by{" "}
                   <label style={{ color: "lightblue", cursor: "pointer" }}>
                     renisal
                   </label>

@@ -1,6 +1,5 @@
 import { useState, useReducer } from "react";
 
-import Footer from "./components/footer";
 import IconSidebar from "./components/iconsidebar";
 import ExtSidebar from "./components/menusidebar";
 
@@ -41,7 +40,6 @@ export default function Main() {
   }
 
   const onUpdatePattrns = (event) => {
-    if (!string) return
     setPattrns(event.target.value);
 
     if (!string) return
@@ -54,7 +52,6 @@ export default function Main() {
   };
 
   const onUpdateString = (event) => {
-    if (!event.target.value) return
     setString(event.target.value);
 
     if (!patterns) return
@@ -157,12 +154,11 @@ export default function Main() {
               </li>
             </ul>
           </div>
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex", height: "65vh"}}>
             <textarea
               onChange={onUpdateString}
               style={{
                 width: "99%",
-                height: "490px",
                 resize: "none",
                 backgroundColor: "#d3d3d3",
                 borderColor: "#aeaeae",
@@ -178,7 +174,6 @@ export default function Main() {
               style={{
                 backgroundColor: "#d3d3d3",
                 width: "99%",
-                height: "490px",
               }}
             >
               <div className="card-body" style={{ overflowY: "auto" }}>
@@ -210,7 +205,6 @@ export default function Main() {
               </div>
             </div>
           </div>
-          <Footer />
         </div>
       </div>
     </>

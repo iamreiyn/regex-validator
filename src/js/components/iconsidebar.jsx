@@ -4,29 +4,13 @@ export default function iconSidebar() {
     return (
         <>
         <div
-          className="card col-10"
+          className="card col-10 iconSidebar"
           id="iconSidebar"
-          style={{
-            width: "75px",
-            backgroundColor: "#212529",
-            borderRadius: "0px",
-            borderTop: "none",
-            borderRight: "1px solid #1d1e21",
-          }}
         >
           <ul className="list-group list-group-flush">
             <li
                onClick={showSidebar}
-              className="list-group-item text-white"
-              style={{
-                
-                backgroundColor: "#385da5",
-                color: "#d3d3d3",
-                display: "inline-block",
-                width: "125%",
-                marginBottom: "5px",
-                cursor: "pointer"
-              }}
+              className="list-group-item activeIcon"
             >
               <label
                 style={{
