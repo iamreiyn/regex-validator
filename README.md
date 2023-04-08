@@ -1,6 +1,6 @@
 # RegEx Validator
 A regular expressions validating application powered by react<br>
-**Online demo: https://renisal.github.io/regex-validator**
+**Online demo: https://montymahato.github.io/regex-validator**
 
 <img target="_blank" src="https://skillicons.dev/icons?i=html,css,bootstrap,js,nodejs,react" height="50px" width="300px">
 
