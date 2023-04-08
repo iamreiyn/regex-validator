@@ -1,14 +1,14 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 @import "https://use.fontawesome.com/releases/v6.0.0/css/all.css";
 
-@import "layouts/_mark";
-@import "layouts/_buttons";
-@import "layouts/_badges";
-@import "layouts/_icons";
+@import "layouts/_mark.scss";
+@import "layouts/_buttons.scss";
+@import "layouts/_badges.scss";
+@import "layouts/_icons.scss";
 
-@import "components/_navbar";
-@import "components/_footer";
-@import "components/_sidebar";
+@import "components/_navbar.scss";
+@import "components/_footer.scss";
+@import "components/_sidebar.scss";
 
 * {
   margin: 0px;
