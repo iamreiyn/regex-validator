@@ -35,7 +35,7 @@ function Navbar() {
                   Home
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mx-1">
                 <a
                   target="_blank"
                   rel="noreferrer"
@@ -48,7 +48,7 @@ function Navbar() {
                   Source
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mx-1">
                 <a
                   target="_blank"
                   rel="noreferrer"
@@ -59,6 +59,17 @@ function Navbar() {
                   Bug Report
                 </a>
               </li>
+              <li className="nav-item mx-1">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  className="nav-link menuitems"
+                  href="https://github.com/renisal/regex-validator"
+                >
+                  <i className="fa fa-star iconsNav"></i>{" "}
+                  Star project
+                </a>
+              </li>
               <li className="nav-item">
                 <a
                   target="_blank"
@@ -67,8 +78,8 @@ function Navbar() {
                   href="https://github.com/renisal"
                   style={{ cursor: "default", color: "#d3d3d3" }}
                 >
-                  <i className="fa fa-user iconsNav"></i> by{" "}
-                  <label style={{ color: "lightblue", cursor: "pointer" }}>
+                  <i style={{ marginRight: "auto", marginLeft: "0px"}} className="fa fa-user iconsNav"></i> by{" "}
+                  <label style={{ color: "lightblue", cursor: "pointer"}}>
                     renisal
                   </label>
                 </a>

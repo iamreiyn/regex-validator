@@ -4,6 +4,7 @@ export default function ExtSidebar() {
         <>
         <div
           className="card col-10 Sidebar"
+          id="Sidebar"
         >
           <ul className="list-group list-group-flush">
             <li
