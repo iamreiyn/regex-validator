@@ -40,7 +40,7 @@ function Navbar() {
                   target="_blank"
                   rel="noreferrer"
                   className="nav-link menuitems"
-                  href="https://github.com/renisal/regex-validator"
+                  href="https://github.com/montymahato/regex-validator"
                 >
                   <i
                     className="fa fa-code-fork iconsNav"
@@ -53,7 +53,7 @@ function Navbar() {
                   target="_blank"
                   rel="noreferrer"
                   className="nav-link menuitems"
-                  href="https://github.com/renisal/regex-validator/issues/new/choose"
+                  href="https://github.com/montymahato/regex-validator/issues/new/choose"
                 >
                   <i className="fa fa-edit iconsNav"></i>{" "}
                   Bug Report
@@ -64,7 +64,7 @@ function Navbar() {
                   target="_blank"
                   rel="noreferrer"
                   className="nav-link menuitems"
-                  href="https://github.com/renisal/regex-validator"
+                  href="https://github.com/montymahato/regex-validator"
                 >
                   <i className="fa fa-star iconsNav"></i>{" "}
                   Star project
@@ -75,7 +75,7 @@ function Navbar() {
                   target="_blank"
                   rel="noreferrer"
                   className="nav-link"
-                  href="https://github.com/renisal"
+                  href="https://github.com/montymahato"
                   style={{ cursor: "default", color: "#d3d3d3" }}
                 >
                   <i style={{ marginRight: "auto", marginLeft: "0px"}} className="fa fa-user iconsNav"></i> by{" "}

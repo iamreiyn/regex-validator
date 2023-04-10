@@ -112,13 +112,7 @@ a {
 
 .clickable {
   cursor: pointer;
-  color: #d3d3d3;
-  background-size: 50px;
 }
-.clickable:hover {
-  color: #d3d3d3;
-}
-
 .cMarginL {
   margin-left: -6px;
 }/*# sourceMappingURL=index.css.map */

@@ -8,19 +8,14 @@
     background-color: rgb(33 37 41);
 }
 
-.activeIcon {
-    background-color: #2d4a84;
-    color: #d3d3d3;
-    display: inline-block;
-    width: 125%;
-    margin-bottom: 5px;
-    cursor: pointer;
+.hoverbg:hover {
+    color: rgb(5, 5, 250);
 }
 
 .Sidebar {
     display: none;
     width: 200px;
-    max-height: 500px;
+    max-height: 100%;
     background-color: #212529;
     border-radius: 0px;
     border-top: none;

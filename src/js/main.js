@@ -114,9 +114,21 @@ export default function Main() {
 
         <div className="container col">
           <div style={{ width: "99%" }} className="input-group mb-3 my-3">
+          <label
+              className="btn btn-outline-secondary"
+              type="text"
+              aria-expanded="false"
+              style={{
+                backgroundColor: "#eaedee",
+                borderColor: "#aeaeae",
+                borderRadius: "6%",
+              }}
+            >
+              /
+            </label>
             <input
               onChange={onUpdatePattrns}
-              placeholder="RegEx Characters (e.g. +*?|^)"
+              placeholder="Regular Expressions (e.g. \b[a-zA-z]{3}\b to match words with 3 letters)"
               type="text"
               className="form-control"
               aria-label="Patterns Placeholder"
@@ -132,29 +144,31 @@ export default function Main() {
                 borderColor: "#aeaeae",
                 borderRadius: "6%",
               }}
-            >
+            > <i
+            className="fa fa-flag mx-2"
+          ></i>
               Flags
             </button>
 
             <ul className="dropdown-menu dropdown-menu-end">
               <li>
-                <label className="dropdown-item btn" onClick={onClickGlobal}>
+                <label className="dropdown-item btn-outline-secondary" onClick={onClickGlobal}>
                   {flagsText.g}
                 </label>
               </li>
               <li>
-                <label className="dropdown-item btn" onClick={onClickCaseSens}>
+                <label className="dropdown-item btn-outline-secondary" onClick={onClickCaseSens}>
                   {flagsText.i}
                 </label>
               </li>
               <li>
-                <label className="dropdown-item btn" onClick={onClickMultiline}>
+                <label className="dropdown-item btn-outline-secondary" onClick={onClickMultiline}>
                   {flagsText.m}
                 </label>
               </li>
             </ul>
           </div>
-          <div style={{ display: "flex", height: "65vh"}}>
+          <div style={{ display: "flex", height: "75vh"}}>
             <textarea
               onChange={onUpdateString}
               style={{

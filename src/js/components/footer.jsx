@@ -6,6 +6,7 @@ function Footer() {
         style={{
           backgroundColor: "rgb(31, 31, 31)",
           width: "98.6%",
+          borderColor: "transparent"
         }}
       >
         <ul
@@ -23,7 +24,7 @@ function Footer() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/renisal/regex-validator"
+              href="https://github.com/montymahato/regex-validator"
               style={{ color: "lightblue", textDecoration: "none" }}
             >
               RegExp Validator:

@@ -112,7 +112,7 @@ export default function ExtSidebar() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/renisal/regex-validator/issues/new/choose"
+                href="https://github.com/montymahato/regex-validator/issues/new/choose"
                 alt="_"
               >
                 <i
@@ -134,7 +134,7 @@ export default function ExtSidebar() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/renisal/regex-validator/fork"
+                href="https://github.com/montymahato/regex-validator/fork"
                 alt="_"
               >
                 <i className="fa fa-copy mx-1" style={{ fontSize: "20px" }}></i>{" "}
@@ -168,7 +168,7 @@ export default function ExtSidebar() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://renisal.github.io/lua-pattern-tester"
+                href="https://montymahato.github.io/lua-pattern-tester"
                 alt="_"
               >
                 <img

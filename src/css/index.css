@@ -22,9 +22,6 @@ mark {
 .icons {
   font-size: 25px;
 }
-.icons:hover {
-  font-size: 30px;
-}
 
 .active {
   background-color: rgb(63, 81, 181);
@@ -67,19 +64,14 @@ mark {
   background-color: rgb(33, 37, 41);
 }
 
-.activeIcon {
-  background-color: #2d4a84;
-  color: #d3d3d3;
-  display: inline-block;
-  width: 125%;
-  margin-bottom: 5px;
-  cursor: pointer;
+.hoverbg:hover {
+  color: rgb(5, 5, 250);
 }
 
 .Sidebar {
   display: none;
   width: 200px;
-  max-height: 500px;
+  max-height: 100%;
   background-color: #212529;
   border-radius: 0px;
   border-top: none;
@@ -108,11 +100,6 @@ a {
 
 .clickable {
   cursor: pointer;
-  color: #d3d3d3;
-  background-size: 50px;
-}
-.clickable:hover {
-  color: #d3d3d3;
 }
 
 .cMarginL {

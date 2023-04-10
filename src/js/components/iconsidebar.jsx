@@ -7,14 +7,13 @@ export default function iconSidebar() {
           className="card col-10 iconSidebar"
           id="iconSidebar"
         >
-          <ul className="list-group list-group-flush">
-            <li
+          <ul className="list-group" style={{listStyle: "none"}}>
+            <li style={{marginLeft: "17px"}}
                onClick={showSidebar}
-              className="list-group-item activeIcon"
+              className="my-2"
             >
               <label
                 style={{
-                  color: "#d3d3d3",
                   fontSize: "13px",
                   marginLeft: "-5px",
                 }}
@@ -25,80 +24,79 @@ export default function iconSidebar() {
               </label>
             </li>
             <li
-              className="list-group-item text-white"
-              style={{ backgroundColor: "transparent" }}
+              style={{borderRadius: "50%",marginLeft: "15px"}}
+              className="my-2"
             >
               <a
-                className="xminus clickable"
+                className="clickable"
                 target="_blank"
                 rel="noreferrer"
                 href="https://cheatography.com/davechild/cheat-sheets/regular-expressions/"
                 alt="_"
               >
                 <i
-                  className="fa fa-file-alt mx-2 icons"
+                  className="fa fa-file-alt mx-2 icons hoverbg"
                 ></i>
               </a>
             </li>
             <li
-              className="list-group-item text-white"
-              style={{ backgroundColor: "transparent" }}
+              className="my-2"
+              style={{borderRadius: "50%",marginLeft: "13px"}}
             >
               <a
-                className="xminus clickable"
+                className="clickable"
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.w3schools.com/jsref/jsref_obj_regexp.asp"
                 alt="_"
               >
                 <i
-                  className="fa fa-question-circle mx-2 icons"
+                  className="fa fa-question-circle mx-2 icons hoverbg"
                 ></i>
               </a>
             </li>
             <li
-              className="list-group-item text-white"
-              style={{ backgroundColor: "transparent" }}
+              className="my-2"
+              style={{ marginLeft: "13px" }}
             >
               <a
-                className="xminus clickable"
+                className="clickable"
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/renisal/regex-validator/issues/new/choose"
+                href="https://github.com/montymahato/regex-validator/issues/new/choose"
                 alt="_"
               >
                 <i
-                  className="fa fa-lightbulb mx-2 icons"
+                  className="fa fa-lightbulb mx-2 icons hoverbg"
                 ></i>
               </a>
             </li>
             <li
-              className="list-group-item text-white"
-              style={{ backgroundColor: "transparent" }}
+              className="my-2"
+              style={{ marginLeft: "13px"}}
             >
               <a
-                className="xminus clickable"
+                className="clickable"
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/renisal/regex-validator/fork"
+                href="https://github.com/montymahato/regex-validator/fork"
                 alt="_"
               >
-                <i className="fa fa-copy mx-2 icons"></i>
+                <i className="fa fa-copy mx-2 icons hoverbg"></i>
               </a>
             </li>
             <li
-              className="list-group-item text-white"
-              style={{ backgroundColor: "transparent" }}
+              className="my-2"
+              style={{ marginLeft: "13px" }}
             >
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://renisal.github.io/lua-pattern-tester"
+                href="https://montymahato.github.io/lua-pattern-tester"
                 alt="_"
               >
                 {" "}
                 <img
-                  style={{ marginLeft: "-6px", marginTop: "-3px" }}
                   src="https://skillicons.dev/icons?i=lua&theme=dark"
                   height="45px"
                   width="38px"
