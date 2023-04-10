@@ -1,6 +1,0 @@
-This favicon was generated using the following font:
-
-- Font Title: Grandstander
-- Font Author: Copyright 2020 The Grandstander Project Authors (https://github.com/Etcetera-Type-Co/Grandstander)
-- Font Source: http://fonts.gstatic.com/s/grandstander/v10/ga6fawtA-GpSsTWrnNHPCSIMZhhKpFjyNZIQD1--D3jWttFGmQk.ttf
-- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

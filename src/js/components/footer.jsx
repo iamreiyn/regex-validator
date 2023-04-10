@@ -27,7 +27,7 @@ function Footer() {
               href="https://github.com/montymahato/regex-validator"
               style={{ color: "lightblue", textDecoration: "none" }}
             >
-              RegExp Validator:
+              RegEx Validator:
             </a>{" "}
             An open source and personal project
           </center>

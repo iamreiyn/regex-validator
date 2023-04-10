@@ -177,8 +177,8 @@ export default function Main() {
                 backgroundColor: "#d3d3d3",
                 borderColor: "#aeaeae",
               }}
-              placeholder="Enter your string here to be matched"
-              aria-label="Enter your string here to be matched"
+              placeholder="Enter your text here to be matched"
+              aria-label="Enter your text here to be matched"
               className="form-control"
               id="myBoxwhite"
               rows="8"
