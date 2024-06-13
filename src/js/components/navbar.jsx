@@ -78,9 +78,9 @@ function Navbar() {
                   href="https://github.com/montymahato"
                   style={{ cursor: "default", color: "#d3d3d3" }}
                 >
-                  <i style={{ marginRight: "auto", marginLeft: "0px"}} className="fa fa-user iconsNav"></i> by{" "}
+                  <i style={{ marginRight: "3px", marginLeft: "0px"}} className="fa fa-user iconsNav"></i> {" "}
                   <label style={{ color: "lightblue", cursor: "pointer"}}>
-                    renisal
+                    /montymahato
                   </label>
                 </a>
               </li>
